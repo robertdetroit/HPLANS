@@ -1,0 +1,32 @@
+
+.youtube-wrapper {
+    position: relative;
+    padding: 1em 0 0.5em 0;
+}
+
+    .youtube-wrapper .yvideo {
+        position: relative;
+        z-index: 2;
+    }
+
+    .youtube-wrapper.first:before {
+        content: '';
+        display: block;
+        width: 2000%;
+        height: 100%;
+        position: absolute;
+        left: -1000%;
+        top: 0;
+        z-index: 1;
+        box-shadow: inset 0px 0px 0px 1px #e8e8e8;
+        background: antiquewhite url("images/image-wrapper.svg");
+    }
+
+
+.toni_pink {
+    color: #f35858;
+}
+
+#footer-wrapper {
+    background-color: floralwhite;
+}
